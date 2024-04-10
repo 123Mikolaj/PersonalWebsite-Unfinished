@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" as="style">
+
+
+
+  <title>Mikołaj-Solecki</title>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo"><a href="#home"><i class="fa fa-house-chimney" style="color: #ffffff;"></i></a>
+      </div>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="toggle-icon"></label>
+      <div class="nav-menu">
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="main-container">
+    <div class="container1" id="home">
+      <div class="left-column">
+        <img class="additional-image" src="images/cinema.jpg">
+      </div>
+      <div class="right-column">
+        <div class="me"></div>
+        <h1 id="home">
+          <span class="part1">Solecki</span>
+          <span class="part2">Mikoła</span><span class="part3">j</span>
+        </h1>
+      </div>
+    </div>
+
+    <div class="container2" id="about">
+      <div class="left-column">
+        <div class="box">
+          <h1>Something about me</h1>
+          <p>Hello, I'm Mikołaj Solecki and I'm a third year student at UKEN in Cracow. Despite being a novice in the
+            field, I'm committed to staying abreast of the advancements in web dev. Just as I
+            immerse myself in the latest trends e.g. music to stay culturally relevant, I'm committed to continuously
+            learn and adapt to new technologies, and best practices in the field.
+            As a future creative developer, I have a diverse range of interests that fuel my creativity and keep
+            me
+            engaged
+            with the
+            ever-evolving digital landscape. </p>
+          <div class="buttons-container">
+            <button class="show-modal cinema" data-modal-type="cinema">🎥 Cinema</button>
+            <button class="show-modal photography" data-modal-type="photography">📷 Photography</button>
+            <button class="show-modal games" data-modal-type="games">🎮 Games</button>
+            <button class="show-modal comics" data-modal-type="comics"> 📖 Comics</button>
+          </div>
+        </div>
+      </div>
+      <img src="images/peopleMedium.jpg" class="people-image">
+      <div id="cinema-content" class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h1>Cinema:</h1>
+        <p>
+          I'm an avid consumer of cinematic experiences, from classic films to the latest blockbusters. Exploring
+          different genres, storytelling techniques, and visual styles not only entertains me but also inspires my
+          creative work. I often find myself analyzing website designs and user experiences through the lens of
+          cinematic storytelling, looking for ways to create immersive digital environments that captivate and engage
+          users.
+        </p>
+      </div>
+
+      <div id="photography-content" class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h1>Photography:</h1>
+        <p>
+          Photography is more than just a hobby—it's a way of seeing the world through a different lens. Capturing
+          moments, exploring perspectives, and playing with light and shadow are skills that I bring to my work as a web
+          developer. Whether I'm designing a website layout, selecting images for a content piece, or enhancing user
+          interfaces with visual elements, my passion for photography informs my creative decisions and adds depth to my
+          projects.
+        </p>
+      </div>
+
+      <div id="games-content" class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h1>Games:</h1>
+        <p>
+          Gaming isn't just a hobby for me—it's a source of inspiration and innovation. I'm fascinated by the
+          intersection of technology, storytelling, and interactive design in video games. Studying game mechanics, user
+          interfaces, and player engagement strategies has influenced my approach to web development, encouraging me to
+          experiment with dynamic content, gamified experiences, and interactive storytelling on the web.
+        </p>
+      </div>
+
+      <div id="comics-content" class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h1>Comics:</h1>
+        <p>
+          Comics have a special place in my heart as a form of visual storytelling. The combination of art and narrative
+          in comic books inspires me to think creatively about how to convey information and evoke emotions through
+          design. Whether it's exploring the vibrant worlds of superhero comics or delving into the depths of graphic
+          novels, I'm always seeking inspiration from the rich visual language of sequential art.
+        </p>
+      </div>
+    </div>
+
+    <div class="container3">
+      <div class="scrolling_text">
+        <div class="text">
+          <span>Personal-Portfolio-Website-!</span>
+          <span>Personal-Portfolio-Website-!</span> <span>Personal-Portfolio-Website-!</span>
+          <span>Personal-Portfolio-Website-!</span> <span>Personal-Portfolio-Website-!</span>
+        </div>
+        <div class="text">
+          <span>Personal-Portfolio-Website-!</span> <span>Personal-Portfolio-Website-!</span>
+          <span>Personal-Portfolio-Website-!</span> <span>Personal-Portfolio-Website-!</span>
+          <span>Personal-Portfolio-Website-!</span>
+        </div>
+      </div>
+      <div class="left-column" id="skills">
+        <h1 class="technicalTop">Technical</h1>
+        <h1 class="technicalBottom">Expertise</h1>
+        <img class="myImage" src="images/code.jpg">
+      </div>
+      <div class="right-column">
+        <div class="menu">
+          <button id="skillsBtn">Skills</button>
+          <button id="educationBtn">Education</button>
+        </div>
+        <div id="tilt-left">
+          <h1><i class="fa-sharp fa fa-user-plus fa-xs" style="color: rgb(90, 91, 159);">&#160;</i>Skills</h1>
+          <p>Comics have a special place in my heart as a form of visual storytelling. The combination
+            of art and narrative
+            in comic books inspires me to think creatively about how to convey information and evoke emotions
+            through
+            design.</p>
+        </div>
+        <div id="tilt-right">
+          <h1><i class="fa-sharp fa fa-school fa-xs" style="color: rgb(92, 65, 65);">&#160;</i>Education</h1>
+          <h2>University of the National Education Commission, Krakow</h2>
+          <h3>2021-current</h3>
+          <p>My Studies in Computer Science provided me with skills in programming,
+            system architecture, security, web development and database management.</p>
+        </div>
+        <div class="tech-stack">
+          <h2>Tech Stack</h2>
+          <img src="icons/html.png" alt="Icon">
+          <img src="icons/css.png" alt="Icon">
+          <img src="icons/js.png" alt="Icon">
+          <img src="icons/bootstrap.png" alt="Icon">
+          <img src="icons/python.png" alt="Icon">
+          <img src="icons/java.png" alt="Icon">
+        </div>
+      </div>
+    </div>
+
+    <div class="container4" id="projects">
+      <h1>Featured Projects</h1>
+      <div class="portfolio-box">
+        <div class="project">
+          <img src="images/pigGame.png" alt="Project 2">
+          <div class="overlay">
+            <h2>🐷 Pig Game</h2>
+            <p>Description of Project 2</p>
+            <button class="btn" onclick="window.open('https://pig-game-solecki.netlify.app/', '_blank')">Try
+              it!</button>
+            <button class="btn"
+              onclick="window.open('https://github.com/123Mikolaj/JS_Course/tree/main/Pig-Game', '_blank')">See
+              Code</button>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/guessMyNumber.png" alt="Project 1">
+          <div class="overlay">
+            <h2>❔ Guess My Number</h2>
+            <p>Description of Project 1</p>
+            <button class="btn" onclick="window.open('https://guess-my-number-solecki.netlify.app/', '_blank')">Try
+              it!</button>
+            <button class="btn"
+              onclick="window.open('https://github.com/123Mikolaj/JS_Course/tree/main/Guess-My-Number', '_blank')">See
+              Code</button>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/carRental.png" alt="Project 3">
+          <div class="overlay">
+            <h2>🚗 Car Rental</h2>
+            <p>Description of Project 3</p>
+            <button class="btn" onclick="window.open('https://github.com/123Mikolaj/Project_PHP-MySQL', '_blank')">See
+              Code</button>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/carRentalMVC.png" alt="Project 4">
+          <div class="overlay">
+            <h2>🚘 Car Rental MVC</h2>
+            <p>Description of Project 4</p>
+            <button class="btn"
+              onclick="window.open('https://github.com/123Mikolaj/Projekt-ASP.NET-Core-MVC', '_blank')">See
+              Code</button>
+          </div>
+        </div>
+        <div class="see-more-button"><a href="https://github.com/123Mikolaj" target="_blank">See More!</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container5" id="contact">
+      <h1>Contact Me</h1>
+      <div class="flex-container">
+        <div class="cbutton"><a href="http://www.linkedin.com/in/miko%C5%82aj-solecki" target="_blank"><img
+              src="icons/linkedin.png"></a></div>
+        <div class="cbutton"><a href="https://github.com/123Mikolaj" target="_blank"><img src="icons/github.png"></a>
+        </div>
+        <div class="contact">
+          <a href="tel:+48796464601" target="_blank">
+            <img src="icons/contact.png">
+            <div class="contact-info">+48 796 464 601 <a href="mailto:example@example.com"
+                target="_blank">mikolaj.solecki.123@gmail.com</a></div>
+          </a>
+        </div>
+        <div class="cvbutton"><a href="links/CV_MikołajSolecki.pdf" target="_blank" download><img
+              src="icons/cv.png"></a></div>
+      </div>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
